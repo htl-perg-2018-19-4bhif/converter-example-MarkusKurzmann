@@ -1,13 +1,18 @@
 {
-  "name": "9030-converter",
+  "name": "converter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "npm install https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "dependencies": "0.0.1",
+    "wolfram-alpha-api": "https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz"
+  },
   "devDependencies": {
     "jasmine": "^3.2.0",
     "jasmine-spec-reporter": "^4.2.1"
